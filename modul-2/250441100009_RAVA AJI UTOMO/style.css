@@ -1,123 +1,63 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  color: #222;
-  background-color: #fdfdfd;
-}
-
-
-.navigasi {
-  padding-top: 25px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.logo-nav {
-  width: 55px;
-  float: left;
-}
-
-.menu {
-  float: right;
-  margin-top: 15px;
-}
-
-.menu a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-  margin-left: 40px;
-}
-
-.hero {
-  text-align: center;
-  padding-top: 80px;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hero h1 {
-  font-size: 48px;
-  margin-bottom: 25px;
-}
-
-.hero p {
-  font-size: 20px;
-  line-height: 1.9;
-  color: #e8f0fe;
-}
-
-.konten {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  padding-left: 20px;
-  padding-right: 20px;
-  max-width: 900px; 
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.konten h2 {
-  text-align: center;
-  font-size: 36px;
-  color: #1a73e8;
-  margin-bottom: 10px;
-}
-
-.sub-judul {
-  text-align: center;
-  font-size: 18px;
-  color: #666;
-  margin-bottom: 80px;
-}
-
-.baris-produk {
-  margin-bottom: 70px;
-}
-
-.gambar-produk {
-  width: 25%;
-  vertical-align: middle;
-}
-
-.teks-produk {
-  width: 70%;
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 40px;
-}
-
-.teks-produk h3 {
-  font-size: 28px;
-  color: #222;
-  margin-bottom: 15px;
-}
-
-.teks-produk p {
-  font-size: 18px;
-  line-height: 1.8;
-  color: #555;
-}
-
-.footer {
-  text-align: center;
-  margin-top: 100px;
-  padding-top: 60px;
-  border-top: 1px solid #ddd;
-}
-
-.footer h3 {
-  font-size: 24px;
-  color: #1a73e8;
-  margin-bottom: 15px;
-}
-
-.footer p {
-  font-size: 17px;
-  color: #444;
-  margin-bottom: 8  px;
-}
+.body {
+      background-color: #f0f4ff;
+      color: #333;
+    }
+ 
+    #tentang {
+      padding: 60px 0;
+      background-color: #ffffff;
+    }
+ 
+    #tentang img {
+      width: 150px;
+      height: 200px;
+    }
+ 
+    #tentang h2 {
+      color: #1a3f6f;
+      margin-bottom: 16px;
+    }
+ 
+    #tentang p {
+      color: #555;
+      line-height: 1.8;
+    }
+ 
+    #wisata {
+      padding: 60px 0;
+      background-color: #dce9f8;
+    }
+ 
+    #wisata h2 {
+      color: #1a3f6f;
+      margin-bottom: 24px;
+    }
+ 
+    #wisata ul {
+      list-style: none;
+      padding: 0;
+    }
+ 
+    #wisata ul li {
+      padding: 12px 0;
+      border-bottom: 1px solid #90b4e8;
+      color: #444;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+ 
+    .tag {
+      font-size: 0.8rem;
+      background-color: #90b4e8;
+      color: #1a3f6f;
+      padding: 3px 10px;
+      border-radius: 20px;
+    }
+ 
+    footer {
+      background-color: #1a3f6f;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px 0;
+    }

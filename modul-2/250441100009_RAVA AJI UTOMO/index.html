@@ -1,57 +1,72 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semeru Water</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kota Lumajang</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div style="background-color: #1a73e8; color: white; padding-bottom: 100px;">
-        <div class="navigasi">
-            <img src="logo.png" alt="Logo Semeru" class="logo-nav">
-            <div class="menu">
-                <a href="#tentang">Tentang Kami</a>
-                <a href="#produk">Lihat Produk</a>
-            </div>
-        </div>
-
-        <div class="hero" id="tentang">
-            <h1>Kemurnian Semeru di Setiap Tetesnya</h1>
-            <p>Air mineral Semeru Water diproses langsung dari mata air pegunungan tinggi yang terjaga kealamiannya. Kami berkomitmen menghadirkan hidrasi terbaik dan paling segar untuk menemani setiap aktivitas harian kamu dan keluarga tercinta di rumah.</p>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1a3f6f;">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Lumajang</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#wisata">Wisata</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <div class="konten" id="produk">
-        <h2>Katalog Produk</h2>
-        <p class="sub-judul">Pilih ukuran yang paling sesuai dengan kebutuhan harian kamu.</p>
-
-        <div class="baris-produk">
-            <img src="logo.png" alt="Botol 600ml" class="gambar-produk">
-            <div class="teks-produk">
-                <h3>Kemasan Botol 600ml</h3>
-                <p>Ukurannya pas banget buat masuk tas atau dibawa saat kamu lagi jogging dan bersepeda. Botol ini menggunakan material plastik yang dijamin aman dan pastinya sangat mudah untuk didaur ulang demi menjaga lingkungan kita bersama.</p>
-            </div>
+  <section id="tentang">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center mb-4 mb-md-0">
+          <img
+            src="logo.png"
+            alt="Logo Lumajang"
+          >
         </div>
-
-        <div class="baris-produk">
-            <img src="logo.png" alt="Galon 19 Liter" class="gambar-produk">
-            <div class="teks-produk">
-                <h3>Kemasan Galon 19 Liter</h3>
-                <p>Solusi paling hemat dan pintar untuk mencukupi kebutuhan air minum satu keluarga. Cocok banget ditaruh di ruang makan, dapur, atau bahkan di area kantor supaya semua orang bisa terus terhidrasi dengan air yang segar setiap saat.</p>
-            </div>
+        <div class="col-md-8">
+          <h2>Tentang Lumajang</h2>
+          <p>Lumajang adalah kabupaten yang terletak di Jawa Timur, Indonesia. Daerah ini dikenal sebagai Kota Pisang karena menjadi penghasil pisang terbesar di Jawa Timur, khususnya Pisang Agung yang berukuran besar dan lezat.</p>
+          <p>Lumajang juga terkenal karena letak geografisnya yang berada di kaki Gunung Semeru, gunung tertinggi di Pulau Jawa. Selain itu, masyarakat Lumajang kaya akan budaya lokal seperti kesenian Jaran Kencak yang sudah dikenal luas.</p>
         </div>
-
-        <div class="footer">
-            <h3>Tetap Terhubung Dengan Kami</h3>
-            <p>Punya pertanyaan atau ingin memesan produk kami?</p>
-            <br>
-            <p>Telepon / WA: 081-2007-1903</p>
-            <p>Email: contact@semeruwater.com</p>
-            <p>Lokasi: Jl. Semeru Dwingin No. 03, Jawa Timur</p>
-        </div>
+      </div>
     </div>
+  </section>
 
+  <section id="wisata">
+    <div class="container">
+      <h2>Wisata Unggulan</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <ul>
+            <li>Ranu Kumbolo <span class="tag">Alam</span></li>
+            <li>Air Terjun Tumpak Sewu <span class="tag">Alam</span></li>
+            <li>Pantai Bambang <span class="tag">Pantai</span></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul>
+            <li>Pura Mandaragiri Semeru Agung <span class="tag">Budaya</span></li>
+            <li>Gunung Semeru <span class="tag">Pendakian</span></li>
+            <li>Pantai Watu Godek <span class="tag">Pantai</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="mb-0">Kabupaten Lumajang, Jawa Timur, Indonesia</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
