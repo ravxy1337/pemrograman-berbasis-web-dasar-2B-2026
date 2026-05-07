@@ -1,0 +1,229 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    color: #212529;
+}
+
+.bg-lightblue {
+    background-color: #e8eeff;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.border-bottom {
+    border-bottom-color: #dee2e6;
+}
+
+.cat-card,
+.course-card {
+    background-color: #ffffff;
+    border-color: #dee2e6;
+}
+
+.cat-icon {
+    background-color: #e8eeff;
+    border-radius: 8px;
+    width: 44px;
+    height: 44px;
+}
+
+.footer-link {
+    color: #cfd8ff;
+    font-size: 0.87rem;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.footer-link:hover {
+    color: #ffffff;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.login-container {
+    height: 100vh;
+}
+
+.login-left {
+    background-color: #5b74bc;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.login-right {
+    background-color: #f2f5fb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.login-form-box {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+}
+
+.form-control::placeholder {
+    color: #7b8ab8;
+    font-weight: 500;
+}
+
+.btn-login {
+    background-color: #3e58a8;
+    color: white;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: 600;
+    width: 100%;
+    border: none;
+    margin-top: 15px;
+}
+
+.btn-login:hover {
+    background-color: #2f4388;
+    color: white;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #888;
+    margin: 20px 0;
+    font-size: 0.9rem;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.divider:not(:empty)::before {
+    margin-right: .25em;
+}
+
+.divider:not(:empty)::after {
+    margin-left: .25em;
+}
+
+.btn-google {
+    background-color: white;
+    color: #444;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: 600;
+    width: 100%;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-google:hover {
+    background-color: #f9f9f9;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 0.8rem;
+    text-align: left;
+    margin-bottom: 10px;
+    display: none;
+    padding-left: 5px;
+}
+
+.is-invalid {
+    border-color: #dc3545;
+}
+
+
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode .login-left {
+    background-color: #4a5f7f;
+}
+
+body.dark-mode .login-right {
+    background-color: #0a0a0a;
+}
+
+body.dark-mode .form-control {
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid #333;
+}
+
+body.dark-mode .form-control::placeholder {
+    color: #666;
+}
+
+body.dark-mode .btn-login {
+    background-color: #5574d9;
+}
+
+body.dark-mode .btn-login:hover {
+    background-color: #3e58a8;
+}
+
+body.dark-mode .btn-google {
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid #333;
+}
+
+body.dark-mode .btn-google:hover {
+    background-color: #2a2a2a;
+}
+
+body.dark-mode .divider {
+    color: #555;
+    border-bottom-color: #333;
+}
+
+body.dark-mode .divider::before,
+body.dark-mode .divider::after {
+    border-bottom-color: #333;
+}
+
+body.dark-mode h3,
+body.dark-mode .login-form-box h3 {
+    color: white !important;
+}
+
+body.dark-mode p,
+body.dark-mode .text-muted,
+body.dark-mode .login-form-box p {
+    color: #aaa !important;
+}
+
+body.dark-mode a {
+    color: #88b0f8;
+}
