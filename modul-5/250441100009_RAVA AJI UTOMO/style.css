@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #e6f2ff;
+    color: #0000ff;
+}
+
+h1,
+h2,
+h3 {
+    color: #0000cc;
+    border-bottom: 2px solid #0000ff;
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    background-color: #f0f8ff;
+    border: 2px solid #0000ff;
+    border-radius: 8px;
+}
+
+td {
+    border: 1px solid #0000ff;
+    padding: 10px;
+}
+
+td:first-child {
+    background-color: #cce6ff;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #0000ff;
+    background-color: #e6f2ff;
+    color: #0000ff;
+    border-radius: 8px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0000ff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0000cc;
+}
+
+.error {
+    color: #0000ff;
+    background-color: #cce6ff;
+    padding: 10px;
+    border: 1px solid #0000ff;
+    border-radius: 8px;
+}
+
+.sukses {
+    color: #0000cc;
+    background-color: #b3d9ff;
+    padding: 10px;
+    border: 1px solid #0000ff;
+    border-radius: 8px;
+}
+
+.kotak-timeline,
+.kotak-artikel,
+.kotak-kutipan {
+    background-color: #f0f8ff;
+    border: 1px solid #0000ff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.kotak-artikel img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #0000ff;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.link-artikel {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #0000ff;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+
+.link-artikel:hover {
+    background-color: #0000cc;
+}
+
+.nav {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 2px solid #0000ff;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #0000ff;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.nav a:hover {
+    background-color: #0000cc;
+}
